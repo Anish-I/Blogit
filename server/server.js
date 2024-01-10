@@ -30,7 +30,7 @@ mongoose.connect(process.env.DB_LOCATION, {
 
 // initializing the firebase
 
-import serviceAccount from "your firebase generated file.json" assert { type: "json" };
+import serviceAccount from "./yappr-7ee42-firebase-adminsdk-nde3q-2f33a00578.json" assert { type: "json" };
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
